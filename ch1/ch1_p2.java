@@ -6,7 +6,7 @@ package basic.ch1;
  *
  * >> 최대값 구하는 로직을 함수로 만듦
  */
-class ch1_2 {
+class ch1_p2 {
 
     public static void main(String[] args) {
         System.out.println("3개의 수 중 최대값은 getMaxValue(3, 2, 1) = " + getMaxValue(3, 2, 1) + " 입니다.");

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Find Middle value of Three Numbers
- * >> Why it worse than ch1_3.java ??
+ * >> Why it worse than ch1_p3.java ??
  *
  *  조건식은 조건 false이면 이후 else문이나 else-if문에서 당연히 이전 조건이 false인 상태로 재확인 필요가 없지만
  *  아래와 같이 작성하면 매번
@@ -19,7 +19,7 @@ import java.util.Scanner;
  *  	으로 수행합니다. 결국 가장 처음의 if가 성립한 경우 2 번째의 if에서도 (실질적으로)같은 판단을 수행하므로 효율이 나빠집니다.
  *
  */
-class ch1_5 {
+class ch1_q5 {
 
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);

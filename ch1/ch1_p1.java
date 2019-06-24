@@ -15,7 +15,7 @@ import java.util.Scanner;
  *   6 + 6 +  1 = 13 가지
  *
  */
-public class ch1_1 {
+public class ch1_p1 {
 
     static int FindMaxValue(int v1, int v2, int v3) {
         String maxVarOrderName;

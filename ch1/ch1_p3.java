@@ -9,7 +9,7 @@ import java.util.Scanner;
  * >> 다양한 알고리즘이 나올 수 있다.
  * >> 후에 퀵정렬에서도 이용되는 알고리즘
  */
-class ch1_3 {
+class ch1_p3 {
 
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
