@@ -14,7 +14,7 @@ class ch2_p8A_ConvRev1 {
 
         System.out.print("변환할 값: ");
         int inputInt1 = stdIn.nextInt();
-        System.out.print("변활할 진수값: ");
+        System.out.print("변환할 진수값: ");
         int rev = stdIn.nextInt();
 
         cardConvR(inputInt1, rev, new char[32]);
