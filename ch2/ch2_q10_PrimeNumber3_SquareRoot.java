@@ -40,7 +40,7 @@ class ch2_q10_PrimeNumber3_SquareRoot {
 
         for(int n = 5; n <= 1000; n += 2) {
             boolean flag = false;
-            for(int i = 1; prime[i] * prime[i] <= n; i++) { // [comment] '<=' 주의!
+            for(int i = 1; prime[i] * prime[i] <= n; i++) { // [comment] '<=' 주의! // [comment] n은 증가값상 홀수이므로 prime[0]의 값 2는 안나뉘므로 나누어볼 필요가 없어 i는 1부터 시작한다.
                 calcCost += 2;
                 if(n % prime[i] == 0) {
                     flag = true;
@@ -55,6 +55,7 @@ class ch2_q10_PrimeNumber3_SquareRoot {
         }
 
         for(int i = 0; i < ptr; i++) System.out.println(prime[i]);
+        System.out.println("1000이하 소수의 갯수 : " +  prime.length);
         System.out.println("나눗셈을 수행한 횟수 : " +  calcCost);
     }
 }

@@ -34,6 +34,7 @@ class ch2_q10_PrimeNumber2_RangePrimeNum {
         }
 
         for(int i = 0; i < ptr; i++) System.out.println(prime[i]);
+        System.out.println("1000이하 소수의 갯수 : " +  prime.length);
         System.out.println("나눗셈을 수행한 횟수 : " +  calcCost);
     }
 }

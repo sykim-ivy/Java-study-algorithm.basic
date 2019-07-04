@@ -42,7 +42,7 @@ class ch2_q11_PrimeNumber4_sqrtMathClass {
             calcCost++; // 제곱근 구하는 것의 정확한 비용을 모르겠다;;;
 
             int i;
-            for(i = 0; i < ptr; i++) {
+            for(i = 1; i < ptr; i++) { // [comment] n은 증가값상 홀수이므로 prime[0]의 값 2는 안나뉘므로 나누어볼 필요가 없어 i는 1부터 시작한다.
                 if(prime[i] <= sqrt) {
                     calcCost++;
                     if(n % prime[i] == 0) break;
@@ -55,6 +55,7 @@ class ch2_q11_PrimeNumber4_sqrtMathClass {
         }
 
         for(int i = 0; i < ptr; i++) System.out.println(prime[i]);
+        System.out.println("1000이하 소수의 갯수 : " +  prime.length);
         System.out.println("나눗셈을 수행한 횟수 : " +  calcCost);
     }
 }
