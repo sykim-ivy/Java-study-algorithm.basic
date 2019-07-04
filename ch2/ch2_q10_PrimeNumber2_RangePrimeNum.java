@@ -21,7 +21,7 @@ class ch2_q10_PrimeNumber2_RangePrimeNum {
         prime[ptr++] = 2;
         for(int n = 3; n <= 1000; n += 2) { // [comment] 2가 소수라 모든 짝수는 소수가 아니게 된다. 그러므로 반복을 홀수만 하도록 증가값을 +=2로 설정
             int i;
-            for(i = 0; i < ptr; i ++) {
+            for(i = 1; i < ptr; i ++) { // [comment] n은 증가값상 홀수이므로 prime[0]의 값 2는 안나뉘므로 나누어볼 필요가 없어 i는 1부터 시작한다.
                 calcCost++;
                 if(n % prime[i] == 0) {
                     break;
